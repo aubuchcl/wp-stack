@@ -6,10 +6,9 @@
       "image": {
         "name": "db",
         "origin": {
-          "type": "docker-file",
+          "type": "docker-hub",
           "details": {
-            "dir": "/",
-            "path": "/Dockerfile"
+            "target": "mysql:5.7"
           }
         }
       },
