@@ -17,7 +17,7 @@
 
       "config": {
         "network": {
-          "public": "diable",
+          "public": "disable",
           "hostname": "db",
           "ports": ["3306:3306"]
         },
