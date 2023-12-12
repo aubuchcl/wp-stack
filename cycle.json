@@ -62,7 +62,10 @@
           "ports": ["80:80", "443:80"]
         },
         "deploy": {
-          "instances": 1
+          "instances": 1,
+          "startup": {
+            "delay": "15s"
+          }
         },
         "runtime": {
           "environment_vars": {
